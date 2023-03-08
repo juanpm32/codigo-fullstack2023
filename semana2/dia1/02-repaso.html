@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background-color: #cccccc;
+        border: 5px solid peru;
+        height: 100vh;
+      }
+      .caja-1{
+        border: 1px solid red;
+        width: 200px;
+        height: 100px;
+        /* overflow: hidden; */
+        overflow-y: scroll;
+      }
+      .texto-1{
+        border: 1px solid blue;
+        width: 200px;
+        height: 100px;
+      }
+      .caja-2{
+        border: 1px solid white;
+        width: 200px;
+        height: 100px;
+        overflow-x: scroll;
+      }
+      .parrafo-grande{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caja-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+      maiores quisquam nemo deserunt repellat? Reprehenderit, nam! Iste omnis
+      dolorem sit consectetur, repellendus temporibus possimus voluptates ea,
+      commodi dicta cum quasi.
+    </div>
+    <span class="texto-1">
+      Un span
+    </span>
+    <div class="caja-2">
+      <p class="parrafo-grande">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo
+        facilis minima culpa, cupiditate dolorum necessitatibus doloremque
+        architecto mollitia ipsam reiciendis rerum optio! Repellat, minima
+        excepturi veniam quisquam iusto neque?
+      </p>
+    </div>
+  </body>
+</html>
